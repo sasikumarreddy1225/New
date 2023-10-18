@@ -1,0 +1,117 @@
+sdesccreate database:
+
+integrity role is all the data is to be in consistance.
+
+
+create database db_nm;
+create database Wipro;
+
+to view the list of databses;
+show databases;
+
+work of database;
+use db_name;
+use wipro;
+
+u can show some particular item in the table : syntax : select * from item name;
+
+
+create table tb_name(col_nm1 dt(limit),col_num2 dt(limit)..........);
+
+list of tables:
+show tables;
+
+view  of list and description;
+dsec table_nm;
+
+in dml alter command is there it is used to modified the data.
+
+constraints : is the set rules and regularations which used restict our tables or data.
+
+insert the values;
+ insert into table_name values(value1 value2 value3 .......)
+
+where clause : select column1,column2,..... from table name  where condition;
+it is case insencetive.
+
+and or operaters are used in between from this to that.
+
+in between statement we can use only and operater only. if u can use or operater it will show error.
+
+in operater is used when particular group values we need that. not in is used expect that values it will shows.
+
+select distinct(col1,col2,col3,.....) from table name where condition is used find out unique values.distinct key is used.
+
+order by clause : asc/desc 
+ syntax: select col1,col2,...... from table name order by col name asc/desc;
+col1[asc/desc],col2[asc/desc],......... it can be applicable for all the columns 
+we can add some calculations order by clause is used.
+
+how to reslove null values using the reportsTo keyword.
+
+limit syntax select col1,col2...... from limit [offset,rowcount]  
+
+how to insert data inside tables;
+
+insert into tb_name values(val1,val2,val3......);
+ 
+insert into tb_name(col1.....)into (val1.....);
+forgien key  is used to join the tables.
+
+modify the columns;
+
+ alter table tb_name modify col_name coldefinition first after col_name;
+
+alter table tb_name change column old_cl_name new_cl_name col_def;
+
+delete col;
+alter table tb_nmae drop column col_name;
+
+rename table;
+alter table tb_name rename new_name;
+
+joins:it can retive the data one table to another table.it is combine of primary and forgien key.
+
+cross join:
+select * from table1 cross join table2;
+select * from tb1 cross join tb2 where col.tab1=col.tb2;
+
+inner join : it can join only common values;
+select col1,col2 from tb1 inner join tab2 on condition;
+syntax;
+select coi list from table1 inner join table 2 on join_condition;
+
+left join ; it can show left side of the table.
+
+right join ; it can show the right side of the data in table.
+
+cross join : it can show the all cross join values.
+
+update query : it can use to update the values in the table or update the tb name.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
